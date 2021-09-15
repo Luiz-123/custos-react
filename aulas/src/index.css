@@ -1,0 +1,15 @@
+body {
+  background-color: #efefef;
+  padding: 50px;
+  padding-bottom: 300px;
+
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  background-color: #999;
+  padding: 10px;
+}
