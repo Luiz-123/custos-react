@@ -1,9 +1,11 @@
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import Home from './components/pages/Home'
+import Projects from './components/pages/Projects'
 import Company from './components/pages/Company'
 import Contact from './components/pages/Contact'
 import NewProject from './components/pages/NewProject'
-import Projects from './components/pages/Projects'
+import Project from './components/pages/Project'
+
 
 import Container from './components/layout/Container'
 import Navbar from './components/layout/Navbar'
@@ -20,6 +22,9 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
+          <Route path="/projects">
+            <Projects />
+          </Route>
           <Route path="/company">
             <Company />
           </Route>
@@ -29,8 +34,8 @@ function App() {
           <Route path="/newproject">
             <NewProject />
           </Route>
-          <Route path="/project">
-            <Projects />
+          <Route path="/project/id:">
+            <Project />
           </Route>
         </Container>
       </Switch>
