@@ -24,7 +24,7 @@
     },
     {
       "name": "flimes",
-      "budget": "3000",
+      "budget": "3500",
       "category": {
         "id": "5",
         "name": "Mobile"
@@ -46,13 +46,26 @@
     },
     {
       "name": "biblioteca",
-      "budget": "4201",
+      "budget": "4250",
       "category": {
         "id": "2",
         "name": "Dados"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 2372,
+      "services": [
+        {
+          "cost": "400",
+          "id": "02ce1852-44ea-45f0-b218-e9a3cf303b9f",
+          "name": "cloud",
+          "description": "backup de dados"
+        },
+        {
+          "cost": "300",
+          "id": "d9054ba9-eaa0-4338-adc7-9f152a79aa89",
+          "name": "rede",
+          "description": "acesso a internet"
+        }
+      ],
       "id": 5
     }
   ],
