@@ -7,8 +7,21 @@
         "id": "4",
         "name": "Design"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 1850,
+      "services": [
+        {
+          "name": "designer",
+          "cost": "850",
+          "description": "ux / ui",
+          "id": "5c1e732e-1ada-4310-bfdf-789170b78508"
+        },
+        {
+          "name": "site",
+          "cost": "1000",
+          "description": "web design",
+          "id": "2966da7f-27b8-4b25-839a-452dee6a2ce8"
+        }
+      ],
       "id": 1
     },
     {
@@ -51,7 +64,7 @@
         "id": "2",
         "name": "Dados"
       },
-      "cost": 2372,
+      "cost": 700,
       "services": [
         {
           "cost": "400",
