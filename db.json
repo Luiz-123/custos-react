@@ -80,6 +80,17 @@
         }
       ],
       "id": 5
+    },
+    {
+      "name": "cafeteria",
+      "budget": "2000",
+      "category": {
+        "id": "5",
+        "name": "Mobile"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 6
     }
   ],
   "categories": [
